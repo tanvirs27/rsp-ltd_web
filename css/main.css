@@ -1,4 +1,4 @@
-/*
+﻿/*
  * A Design by GraphBerry
  * Author: GraphBerry
  * Author URL: http://graphberry.com
@@ -98,7 +98,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	position: relative;
-	background-size: auto !100%;
+	background-size: 100%;
 }
 .slide {
 	position: absolute;
