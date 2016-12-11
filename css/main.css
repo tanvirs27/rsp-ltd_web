@@ -37,7 +37,10 @@ a:focus {
 	color: #ffe600;
 }
 .row {
-	margin-bottom: 50px;
+	
+   margin-bottom: 70px; 
+  
+ 
 }
 
 .nav > li > a{
@@ -100,6 +103,14 @@ a:focus {
 	position: relative;
 	background-size: 100%;
 }
+.nproduct {
+	background: url(../img/coal1.jpg) no-repeat top fixed;
+	position: relative;
+	width: 100%;
+	height:70%
+	position: relative;
+	background-size: auto !100%;
+}
 .slide {
 	position: absolute;
 	top: 50%;
@@ -116,6 +127,24 @@ a:focus {
 	font-weight: bold;
 	font-size: 65px;
 	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+}
+.lead2 {
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+}
+.lead1 {
+	display: block;
+	color: #ffff00;
+	font-weight: bold;
+	font-size: 20px;
+	/*text-transform: uppercase;*/
 	width: 80%;
 	margin: 0 auto;
 }
@@ -287,8 +316,14 @@ a:focus {
 }
 
 .team{
+	 
+    
 	list-style: none;
+	
+	padding-left:20%;
+	padding-top:15px;
 }
+
 
 .team-extended .row{
 	margin-bottom: 0;
