@@ -88,10 +88,36 @@ function inviewAnimation() {
 			$('.numbers .number').each(function () {
 				var element = $(this);
 				var duration = element.attr('data-duration');
-				var count = element.attr('data-count')
+				var count = element.attr('data-count');
 				var id = element.attr('id');
-				var numAnim = new countUp(id, 0, count, 0, duration);
-				numAnim.start();
+				
+				if(id == "hitCounter"){
+					
+					var xhttp;
+					if (window.XMLHttpRequest) {
+						xhttp = new XMLHttpRequest();
+					}else {
+						// code for IE6, IE5
+						xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+					}
+					
+					xhttp.onreadystatechange = function() {
+						if (this.readyState == 4 && this.status == 200) {
+							count = this.responseText;
+							
+							var numAnim = new countUp(id, 0, count, 0, duration);
+							numAnim.start();
+						}
+					};
+				
+					xhttp.open("GET", "countval.txt", true);
+					xhttp.send(); 
+				}
+				else{
+					var numAnim = new countUp(id, 0, count, 0, duration);
+					numAnim.start();
+				}
+				
 
 			})
 		}
