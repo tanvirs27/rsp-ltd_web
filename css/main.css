@@ -473,6 +473,7 @@ blockquote {
 .branded-section .heading {
 	color: #fff;
 	z-index: 1000;
+	
 }
 .numbers {
 	background-image: url('../img/we-are-proud.jpg');
@@ -516,6 +517,7 @@ background-attachment: fixed;
 	text-align: center;
 	border: 1px solid #FFE600;
 	padding: 10px;
+
 }
 .number-item .number {
 	display: block;
@@ -532,6 +534,8 @@ background-attachment: fixed;
 .number-item .text {
 	color: #FFE600;
 	font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 	text-transform: uppercase;
 }
 .circle {
@@ -1372,4 +1376,8 @@ RESPONSIVE
 
 .thumb-wrap{
 	margin-bottom: 50px;
+}
+.Full {
+  width: calc(100% - 5px);
+  height: calc(100% - 5px);
 }
