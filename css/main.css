@@ -342,6 +342,7 @@ a:focus {
 	text-align: center;
 	position: relative;
 	display: block;
+	
 }
 
 .team-member:hover{
@@ -363,7 +364,7 @@ a:focus {
     margin: 0 0 0 -15px;
     pointer-events: none;
     position: absolute;
-    top: auto;
+    top: 50%;
     width: 0;
 }
 
@@ -377,6 +378,7 @@ a:focus {
     text-align: left;
     top: auto;
     width: 100%;
+	
 }
 
 .team-extended h3{
