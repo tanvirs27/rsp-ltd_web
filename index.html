@@ -571,6 +571,23 @@ We have plan to grip China, Japan, Turkey, United Stages, Australia, Taiwan, Can
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="counter.php"></script>
 	<script src="js/grid.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	  $(window).load(function() {           
+	  var i =0; 
+	  var images = ['img/image2.jpg','img/image3.jpg','img/image1.jpg'];
+	  var image = $('#home');
+	  
+		setInterval(function(){   
+	   image.fadeOut(1000, function () {
+	   image.css('background-image', 'url(' + images [i++] +')');
+	   image.fadeIn(1000);
+	   });
+	   if(i == images.length)
+	    i = 0;
+	  }, 5000);            
+	 });
+	</script>
 	<script>
 	$(function() {
 		Grid.init();
