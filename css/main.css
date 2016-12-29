@@ -104,6 +104,7 @@ a:focus {
 	background-size: 100%;
 }
 
+
 .nproduct {
 	background: url(../img/coal1.jpg) no-repeat top fixed;
 	position: relative;
@@ -235,7 +236,13 @@ a:focus {
 }
 .gray {
 	background: #FBFBFB;
+	background: url(../img/pdesign.jpg) no-repeat top fixed;
+	position: relative;
+	width: 100%;
+	position: relative;
+	background-size: 100%;
 }
+
 .service-item {
 	padding: 0 20px;
 	text-align: center;
