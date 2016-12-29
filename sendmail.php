@@ -20,6 +20,7 @@
 	mail($to, $subject, $message, $headers);
 	
 	
+	
 //	echo "Thank you for your valuable feedback\n";
 ?>
 
@@ -54,7 +55,7 @@
 		<div class="project-loader">
 		<p><font color="black" size="20%">Thank you for your valuable feedback</p>
 			<div style="text-align:center; margin-bottom: 50px">
-					<a href="http://www.rsp-bd.com/" class="btn btn-primary2">RETURN TO HOME</a>
+					<a href="index.html" class="btn btn-primary2">RETURN TO HOME</a>
 			</div>
 		</div>
 	</div>
