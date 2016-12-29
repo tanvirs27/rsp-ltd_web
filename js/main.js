@@ -8,6 +8,25 @@ $('#testimonials').bxSlider({
 	controls: false
 });
 
+
+//for preloading images
+window.onload = function() {
+	setTimeout(function() {
+		// XHR to request a JS and a CSS
+		var xhr = new XMLHttpRequest();
+	//	xhr.open('GET', 'http://domain.tld/preload.js');
+	//	xhr.send('');
+	//	xhr = new XMLHttpRequest();
+	//	xhr.open('GET', 'http://domain.tld/preload.css');
+	//	xhr.send('');
+	
+		// preload image
+		new Image().src = "img/image2.jpg";
+		new Image().src = "img/image3.jpg";
+		
+	}, 5000);
+};
+
 //carusel for clients
 $('.client-slider').bxSlider({
 	pager: false,

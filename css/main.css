@@ -43,6 +43,13 @@ a:focus {
  
 }
 
+.contactrow {
+	
+   margin-bottom: 20px; 
+  
+ 
+}
+
 .nav > li > a{
 	font-weight: normal;
 }
