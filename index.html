@@ -109,6 +109,7 @@
 	 
 		
 		<section id="about" class="gray">
+		
 				<div class="container">
 				<div class="heading">
 					<p><font color="white"><font></p>
@@ -147,6 +148,7 @@
 					<p><font color="white"><font></p>
 				</div>
 				</div>
+				
 		</section>
 		
 		<section id="mission">
@@ -608,8 +610,9 @@ We have plan to grip China, Japan, Turkey, United Stages, Australia, Taiwan, Can
 	  var images = ['img/image2.jpg','img/image3.jpg','img/image1.jpg'];
 	  var image = $('#home');
 	  
-		setInterval(function(){   
-	   image.fadeOut(500, function () {
+		setInterval(function(){  
+	
+	   image.fadeOut(0, function () {
 	   image.css('background-image', 'url(' + images [i++] +')');
 	   image.fadeIn(500);
 	   });
