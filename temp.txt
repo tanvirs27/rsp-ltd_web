@@ -1,0 +1,9 @@
+<div class="col-sm-4" style="position:relative">
+									<input type="text" name="name" data-new-placeholder="What is your name?" class="form-control label_better" placeholder="Name">
+								</div>
+								<div class="col-sm-4">
+									<input type="text" name="email" class="form-control label_better" placeholder="Email">
+								</div>
+								<div class="col-sm-4">
+									<input type="text" name="phone" class="form-control label_better" placeholder="Phone">
+								</div>

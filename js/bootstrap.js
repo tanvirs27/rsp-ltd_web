@@ -35,7 +35,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     var el = document.createElement('bootstrap')
 
     var transEndEventNames = {
-      'WebkitTransition' : 'webkitTransitionEnd'
+;      'WebkitTransition' : 'webkitTransitionEnd'
     , 'MozTransition'    : 'transitionend'
     , 'OTransition'      : 'oTransitionEnd otransitionend'
     , 'transition'       : 'transitionend'
@@ -115,7 +115,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     if (e.isDefaultPrevented()) return
 
     $parent.removeClass('in')
-
+;
     function removeElement() {
       $parent.trigger('closed.bs.alert').remove()
     }
@@ -175,7 +175,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
+ *; distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
