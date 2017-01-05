@@ -11,7 +11,7 @@
 	if(filter_var($email, FILTER_VALIDATE_EMAIL)){
 		
 		if(!preg_match("/^[0-9]{0,11}$/",$phone)){
-			echo "Please give valid phone no";
+			echo "<font color='yellow' size='5%'>*Please give valid phone number</font>";
 		}else{
 			
 			$to      = 'info@rsp-bd.com';
@@ -27,10 +27,10 @@
 
 			mail($to, $subject, $message, $headers);
 			
-			echo "<font color='yellow' size='5%'>Thank you for your valuable feedback</font>";
+			echo "<center><font color='yellow' size='5%'>Thank you for your valuable feedback</font></center><br>";
 		}
 	}else{
-		echo "<font color='yellow' size='5%'>*invalid email</font>";
+		echo "<font color='yellow' size='5%'>*Invalid email</font>";
 	}
 	
 	

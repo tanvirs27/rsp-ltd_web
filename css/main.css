@@ -519,7 +519,7 @@ blockquote {
 background-attachment: fixed;
 }
 .process {
-	background: url('../img/how-we-do-it.jpg') 0px 0px no-repeat;
+	background: url('../img/image3.jpg') 0px 0px no-repeat;
 	
 background-size: cover;
 background-attachment: fixed;
@@ -1131,9 +1131,7 @@ Forms
 	padding: 20px;
 	color: #fff;
 	border-width: 2px;
-}
-::-webkit-input-placeholder {
-   color: red;
+	
 }
 .contact-form .form-control:focus {
 	border: 2px solid #FEE600;
