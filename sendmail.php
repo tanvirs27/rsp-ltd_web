@@ -27,10 +27,10 @@
 
 			mail($to, $subject, $message, $headers);
 			
-			echo "Thank you for your valuable feedback\n";
+			echo "<font color='yellow' size='5%'>Thank you for your valuable feedback</font>";
 		}
 	}else{
-		echo "invalid email";
+		echo "<font color='yellow' size='5%'>*invalid email</font>";
 	}
 	
 	
