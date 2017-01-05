@@ -14,23 +14,23 @@
 			echo "Please give valid phone no";
 		}else{
 			
-			$to      = 'contact@rsp-bd.com';
-			$subject = 'Contact form comment';
+			$to      = 'info@rsp-bd.com';
+			$subject = 'Comment from: '.$name;
 			$message = 'Name: '.$name. "\r\n" .
 						'Email: '.$email. "\r\n" .
 						'Phone: '.$phone. "\r\n" .
 						'Comment: '.$comment. "\r\n";
 						
-			$headers = 'From: admin@rsp-bd.com' . "\r\n" .
-			'Reply-To: admin@rsp-bd.com' . "\r\n" .
+			$headers = 'From: '.$email . "\r\n" .
+			'Reply-To: '.$email . "\r\n" .
 			'X-Mailer: PHP/' . phpversion();
 
 			mail($to, $subject, $message, $headers);
 			
-			echo "Thank you for your valuable feedback\n";
+			echo "<font color='yellow' size='5%'>Thank you for your valuable feedback</font>";
 		}
 	}else{
-		echo "invalid email";
+		echo "<font color='yellow' size='5%'>*invalid email</font>";
 	}
 	
 	
